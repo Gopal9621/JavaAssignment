@@ -14,6 +14,7 @@ public class assignment1 {
 }
 
 // 2 MULTIPLICATION TABLE
+
 // import java.util.*;
 // public class Table {
 //     public static void main(String[] args) {
@@ -200,6 +201,7 @@ public class assignment1 {
 // }
     
 // }
+
 
 
 
