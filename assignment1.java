@@ -1,6 +1,5 @@
 // 1 SUM OF N NATURAL NUMBER
 import java.util.*;
-
 public class assignment1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -201,6 +200,7 @@ public class assignment1 {
 // }
     
 // }
+
 
 
 
