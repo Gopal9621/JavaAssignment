@@ -44,40 +44,40 @@ public class Factorial {
 }
 
 // 4 COUNT DIGITS
-// import java.util.*;
+import java.util.*;
 
-// public class CountDigits {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int count = 0;
+public class CountDigits {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int count = 0;
 
-//         while(num > 0){
-//             num /= 10;
-//             count++;
-//         }
+        while(num > 0){
+            num /= 10;
+            count++;
+        }
 
-//         System.out.println("Digits = " + count);
-//     }
-// }
+        System.out.println("Digits = " + count);
+    }
+}
 
 // 5 SUM OF DIGITS
-// import java.util.*;
+import java.util.*;
 
-// public class SumDigits {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int num = sc.nextInt();
-//         int sum = 0;
+public class SumDigits {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int sum = 0;
 
-//         while(num > 0){
-//             sum += num % 10;
-//             num /= 10;
-//         }
+        while(num > 0){
+            sum += num % 10;
+            num /= 10;
+        }
 
-//         System.out.println("Sum of digits = " + sum);
-//     }
-// }
+        System.out.println("Sum of digits = " + sum);
+    }
+}
 
 // 6 PALINDROME
 // import java.util.*;
