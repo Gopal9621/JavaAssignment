@@ -14,34 +14,34 @@ public class assignment1 {
 
 // 2 MULTIPLICATION TABLE
 
-// import java.util.*;
-// public class Table {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int N = sc.nextInt();
+import java.util.*;
+public class Table {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
 
-//         for(int i=1; i<=10; i++){
-//             System.out.println(N + " x " + i + " = " + (N*i));
-//         }
-//     }
-// }
+        for(int i=1; i<=10; i++){
+            System.out.println(N + " x " + i + " = " + (N*i));
+        }
+    }
+}
 
 // // 3 Factorial
-// import java.util.*;
+import java.util.*;
 
-// public class Factorial {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int N = sc.nextInt();
-//         int fact = 1;
+public class Factorial {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int fact = 1;
 
-//         for(int i=1; i<=N; i++){
-//             fact *= i;
-//         }
+        for(int i=1; i<=N; i++){
+            fact *= i;
+        }
 
-//         System.out.println("Factorial = " + fact);
-//     }
-// }
+        System.out.println("Factorial = " + fact);
+    }
+}
 
 // 4 COUNT DIGITS
 // import java.util.*;
